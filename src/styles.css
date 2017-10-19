@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 5px;
+  border-bottom: solid 2px transparent;
+}
+
+li:hover {
+  border-bottom: solid 2px crimson;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  flex :  1 1 100%;
+  background-color: palegreen;
+  height: 100vh;
+}
+
+.child {
+  display: flex;
+  flex:  0 0 200px;
+  height: 200px;
+  background-color:  seashell;
+  border: solid crimson 1px;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+
+.main {
+  position: relative;
+  width: 35vw;
+  height: 35vh;
+  margin: 0 auto;
+}
+
+
+
